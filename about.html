@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rama Rasyid - Journey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url("2.jpg") no-repeat center center fixed; /* Menambahkan background gambar */
+        background-size: cover; /* Membuat gambar menutupi seluruh area */
+        color: #f6f4f4;
+      }
+
+      header {
+        background: none;
+        position: relative;
+        color: #f3f2f2;
+        padding-top: 1px;
+        height: auto;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        background-color: none;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav ul li {
+        margin: 0 15px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.5s ease;
+        display: flex;
+        align-items: center;
+      }
+
+      nav ul li a i {
+        margin-right: 8px;
+      }
+
+      nav ul li a:hover {
+        background-color: #fff;
+        color: #000;
+        border-radius: 0; /* Menghapus lengkungan saat hover */
+      }
+
+      nav ul li.active a {
+        background-color: #fff;
+        color: #000;
+        border-radius: 0; /* Menghapus lengkungan pada menu aktif */
+      }
+
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 1px;
+        color: #fff;
+        height: 20vh;
+      }
+
+      .main-content h1 {
+        font-size: 3em;
+        margin: 10px;
+      }
+
+      .main-content p {
+        font-size: 1.2em;
+        margin: 15px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      .facility {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .facility-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        flex: 1 1 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+        text-align: center;
+        transition: transform 0.3s;
+      }
+
+      .facility-card:hover {
+        transform: scale(1.05);
+      }
+
+      .facility-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .facility-card h3 {
+        margin: 15px 0;
+        font-size: 1.5em;
+        color: #2c3e50;
+      }
+
+      .facility-card p {
+        padding: 0 10px;
+        color: #666;
+      }
+
+      footer {
+        background-color: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Rama Rasyid</h1>
+        <ul>
+          <li>
+            <a href="index.html"> <i class="fa fa-home"></i> Home </a>
+          </li>
+          <li>
+            <a href="profile.html">Profile</a>
+          </li>
+          <li class="active"><a href="#">Journey</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="main-content">
+        <h1>Journey</h1>
+        <p>A Pleasent Journey 2023 - Now</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2 id="facilities">Magang Departemen Advojar LEM FMIPA UII Kabinet Kolaborasi Sinergi</h2>
+      <div class="facility">
+        <div class="facility-card">
+          <img src="magang1.jpg" alt="LEM FMIPA MENYAPA" />
+          <h3>LEM FMIPA MENYAPA</h3>
+          <p>LEM FMIPA Menyapa BEM FMIPA UAD</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="magang2.jpg" alt="PLAVOMASI" />
+          <h3>PLAVOMASI</h3>
+          <p>Pelatihan Advokasi dan Manajemen Aksi.</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="magang3.jpg" alt="Studi Banding" />
+          <h3>Studi Banding</h3>
+          <p>Studi Banding LEM FMIPA UII dan BEM FMIPA UNY</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="facilities">Fungsionaris Departemen Advojar LEM FMIPA UII Kabinet Interaksi Karsa</h2>
+      <div class="facility">
+        <div class="facility-card">
+          <img src="LEM4.jpg" alt="Rapat Perdana" />
+          <h3>Rapat Perdana</h3>
+          <p>Rapat Perdana Departemen Advojar LEM FMIPA UII Kabinet Interaksi Karsa</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="LEM1.jpg" alt="Pelantikan LEM FMIPA UII" />
+          <h3>Pelantikan LEM FMIPA UII</h3>
+          <p>Pelantikan LEM FMIPA UII Kabinet Interaksi Karsa</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="LEM3.jpg" alt="Upgrading LEM FMIPA UII" />
+          <h3>Upgrading LEM FMIPA UII</h3>
+          <p>Upgrading LEM FMIPA UII Kabinet Interaksi Karsa</p>
+        </div>
+        <div class="facility-card">
+          <img src="LEM8.jpg" alt="Studi Banding Internal" />
+          <h3>Studi Banding Internal</h3>
+          <p>Studi Banding Internal LEM FMIPA FTI FTSP FPSB UII</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="LEM11.jpg" alt="LEM FMIPA Menyapa" />
+          <h3>LEM FMIPA MENYAPA</h3>
+          <p>LEM FMIPA Menyapa BEM FMIPA UAD</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="LEM9.jpg" alt="Studi Banding Eksternal" />
+          <h3>Studi Banding Eksternal</h3>
+          <p>Studi Banding Eksternal LEM FMIPA UII dan BEM FSM UNDIP</p>
+        </div>
+        <div class="facility-card">
+          <img src="LEM12.jpg" alt="Bahas Isu Serta Advokasi" />
+          <h3>BISA LEM FMIPA UII</h3>
+          <p>Bahas Isu Serta Advokasi LEM FMIPA UII</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="LEM13.jpg" alt="Rapat Pleno Terakhir" />
+          <h3>Rapat Pleno Terakhir</h3>
+          <p>Rapat Pleno Terakhir LEM FMIPA UII Kabinet Interaksi Karsa</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="LEM14.jpg" alt="Advojar" />
+          <h3>Departemen Advojar</h3>
+          <p>Foto Terakhir Departemen Advojar LEM FMIPA UII Kabinet Interaksi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="facilities">Staff Humtrans Masa Ta'aruf 24 FMIPA UII</h2>
+      <div class="facility">
+        <div class="facility-card">
+          <img src="masta2.jpg" alt="Gladi Kotor" />
+          <h3>Gladi Kotor</h3>
+          <p>Gladi Kotor Masta 24</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="masta3.jpg" alt="Masa Ta'aruf 24" />
+          <h3>Masa Ta'aruf Day</h3>
+          <p>Last Day Masa Ta'aruf 24</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="masta4.jpg" alt="LPJ Masta24" />
+          <h3>LPJ Masta 24</h3>
+          <p>LPJ Masa Ta'aruf 24</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="facilities">Staff Keamanan Indonesian Statistics Festival</h2>
+      <div class="facility">
+        <div class="facility-card">
+          <img src="isf2.jpg" alt="ISF Day 1" />
+          <h3>ISF Day 1</h3>
+          <p>Indonesian Statistics Festival 24 Day 1</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="isf4.jpg" alt="PLAVOMASI" />
+          <h3>Last Day ISF</h3>
+          <p>Last Day Indonesian Statistics Festival 24</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="isf3.jpg" alt="Farewell Party" />
+          <h3>Farewell Party</h3>
+          <p>Farewell Party Indonesian Statistics Festival 24</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
